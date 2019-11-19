@@ -1,10 +1,10 @@
 databaseChangeLog:
   - changeSet:
-      id: create_notes_table
+      id: create_mockcc_table
       author: Matthew Whitacre
       changes:
         - createTable:
-            tableName: NOTES
+            tableName: MOCK_CREDIT_CARDS
             columns:
               - column:
                   name: ID
@@ -14,12 +14,27 @@ databaseChangeLog:
                     primaryKey: true
                     nullable: false
               - column:
-                  name: AUTHOR
-                  type: varchar(32)
+                  name: CREDIT_CARD_NUMBER
+                  type: int(32)
                   constraints:
                     nullable: false
               - column:
-                  name: NOTE
+                  name: CARD_HOLDER_NAME
                   type: varchar(128)
+                  constraints:
+                    nullable: false
+              - column:
+                   name: EXPIRATION_MONTH
+                   type: int(2)
+                   constraints:
+                      nullable: false
+              - column:
+                  name: EXPIRATION_YEAR
+                  type: int(4)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: CVV
+                  type: int(6)
                   constraints:
                     nullable: false
