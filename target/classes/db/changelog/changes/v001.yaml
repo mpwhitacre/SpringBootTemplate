@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_notes_table
+      author: Matthew Whitacre
+      changes:
+        - createTable:
+            tableName: NOTES
+            columns:
+              - column:
+                  name: ID
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: AUTHOR
+                  type: varchar(32)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: NOTE
+                  type: varchar(128)
+                  constraints:
+                    nullable: false

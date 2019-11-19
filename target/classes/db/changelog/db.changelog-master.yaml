@@ -1,0 +1,6 @@
+databaseChangeLog:
+  - preConditions:
+      - runningAs:
+          username: dl-user
+  - includeAll:
+      path: db/changelog/changes/
