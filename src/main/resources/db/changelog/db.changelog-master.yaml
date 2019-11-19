@@ -1,6 +1,6 @@
 databaseChangeLog:
   - preConditions:
       - runningAs:
-          username: dl-user
+          username: {USERNAME}
   - includeAll:
       path: db/changelog/changes/
