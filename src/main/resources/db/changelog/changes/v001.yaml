@@ -15,7 +15,7 @@ databaseChangeLog:
                     nullable: false
               - column:
                   name: CREDIT_CARD_NUMBER
-                  type: int(32)
+                  type: varchar(32)
                   constraints:
                     nullable: false
               - column:
@@ -25,7 +25,7 @@ databaseChangeLog:
                     nullable: false
               - column:
                    name: EXPIRATION_MONTH
-                   type: int(2)
+                   type: varchar(2)
                    constraints:
                       nullable: false
               - column:

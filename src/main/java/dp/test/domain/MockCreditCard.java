@@ -11,11 +11,11 @@ public class MockCreditCard {
     @Column(name="ID")
     int id;
     @Column(name="CREDIT_CARD_NUMBER")
-    int cardNumber;
+    String cardNumber;
     @Column(name="CARD_HOLDER_NAME")
     String cardHolderName;
     @Column(name="EXPIRATION_MONTH")
-    int expirationMonth;
+    String expirationMonth;
     @Column(name="EXPIRATION_YEAR")
     int expirationYear;
     @Column(name="CVV")
@@ -23,7 +23,7 @@ public class MockCreditCard {
 
     public MockCreditCard(){}
 
-    public MockCreditCard(int cardNumber, String cardHolderName, int expirationMonth, int expirationYear, int cvv){
+    public MockCreditCard(String cardNumber, String cardHolderName, String expirationMonth, int expirationYear, int cvv){
         this.cardNumber = cardNumber;
         this.cardHolderName = cardHolderName;
         this.expirationMonth = expirationMonth;
@@ -39,11 +39,11 @@ public class MockCreditCard {
         this.id = id;
     }
 
-    public int getCardNumber() {
+    public String getCardNumber() {
         return cardNumber;
     }
 
-    public void setCardNumber(int cardNumber) {
+    public void setCardNumber(String cardNumber) {
         this.cardNumber = cardNumber;
     }
 
@@ -55,11 +55,11 @@ public class MockCreditCard {
         this.cardHolderName = cardHolderName;
     }
 
-    public int getExpirationMonth() {
+    public String getExpirationMonth() {
         return expirationMonth;
     }
 
-    public void setExpirationMonth(int expirationMonth) {
+    public void setExpirationMonth(String expirationMonth) {
         this.expirationMonth = expirationMonth;
     }
 
