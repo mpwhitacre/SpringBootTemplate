@@ -1,6 +1,6 @@
-package dp.test.service;
+package datapuddle.service;
 
-import dp.test.domain.Note;
+import datapuddle.domain.Note;
 
 public interface NoteService {
     Iterable<Note> findAll();

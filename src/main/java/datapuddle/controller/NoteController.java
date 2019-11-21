@@ -1,7 +1,7 @@
-package dp.test.controller;
+package datapuddle.controller;
 
-import dp.test.domain.Note;
-import dp.test.service.NoteService;
+import datapuddle.service.NoteService;
+import datapuddle.domain.Note;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,10 +46,12 @@ public class NoteController {
         return noteService.findAll();
     }
 
+
     @GetMapping(path="/note")
     public @ResponseBody Note getNote(@RequestParam(value="id") int noteId){
         return noteService.getByNoteId(noteId);
     }
+
 
     @DeleteMapping(path="/delete")
     public ResponseEntity<String> deleteNote(@RequestParam(value="id") int noteId) {

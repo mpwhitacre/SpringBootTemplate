@@ -1,4 +1,4 @@
-package dp.test.domain;
+package datapuddle.domain;
 
 import javax.persistence.*;
 

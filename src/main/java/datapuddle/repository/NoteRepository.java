@@ -1,6 +1,6 @@
-package dp.test.repository;
+package datapuddle.repository;
 
-import dp.test.domain.Note;
+import datapuddle.domain.Note;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -1,7 +1,7 @@
-package dp.test.service;
+package datapuddle.service;
 
-import dp.test.domain.Note;
-import dp.test.repository.NoteRepository;
+import datapuddle.repository.NoteRepository;
+import datapuddle.domain.Note;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
