@@ -34,4 +34,12 @@ This service should handle errors properly and gracefully fail without disruptin
 * https://www.petrikainulainen.net/spring-data-jpa-tutorial/
 * https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa
 * https://www.liquibase.org/documentation/index.html
-
+* https://spring.io/guides/gs/rest-service/
+* https://spring.io/guides/gs/relational-data-access/
+* https://spring.io/guides/gs/accessing-data-jpa/
+* https://spring.io/guides/gs/async-method/ 
+* https://microservices.io/
+* https://www.javaworld.com/article/3379043/what-is-jpa-introduction-to-the-java-persistence-api.html
+* https://auth0.com/blog/automatically-mapping-dto-to-entity-on-spring-boot-apis/ 
+* https://softwareengineering.stackexchange.com/questions/171457/what-is-the-point-of-using-dto-data-transfer-objects/171479
+* https://www.tutorialspoint.com/design_pattern/data_access_object_pattern.htm
