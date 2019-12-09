@@ -1,6 +1,0 @@
-dp/test/domain/MockCreditCard.class
-dp/test/controller/MockCreditCardController.class
-dp/test/service/MockCreditCardService.class
-dp/test/repository/MockCreditCardRepository.class
-dp/test/service/MockCreditCardServiceImpl.class
-dp/test/MockCreditCardServiceApplication.class
